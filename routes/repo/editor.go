@@ -14,12 +14,12 @@ import (
 	log "gopkg.in/clog.v1"
 
 	"github.com/gogits/git-module"
-	"github.com/gogits/gogs/models"
-	"github.com/gogits/gogs/pkg/context"
-	"github.com/gogits/gogs/pkg/form"
-	"github.com/gogits/gogs/pkg/setting"
-	"github.com/gogits/gogs/pkg/template"
-	"github.com/gogits/gogs/pkg/tool"
+	"github.com/funnywwh/gogs/models"
+	"github.com/funnywwh/gogs/pkg/context"
+	"github.com/funnywwh/gogs/pkg/form"
+	"github.com/funnywwh/gogs/pkg/setting"
+	"github.com/funnywwh/gogs/pkg/template"
+	"github.com/funnywwh/gogs/pkg/tool"
 )
 
 const (

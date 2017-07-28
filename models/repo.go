@@ -26,12 +26,12 @@ import (
 	git "github.com/gogits/git-module"
 	api "github.com/gogits/go-gogs-client"
 
-	"github.com/gogits/gogs/models/errors"
-	"github.com/gogits/gogs/pkg/bindata"
-	"github.com/gogits/gogs/pkg/markup"
-	"github.com/gogits/gogs/pkg/process"
-	"github.com/gogits/gogs/pkg/setting"
-	"github.com/gogits/gogs/pkg/sync"
+	"github.com/funnywwh/gogs/models/errors"
+	"github.com/funnywwh/gogs/pkg/bindata"
+	"github.com/funnywwh/gogs/pkg/markup"
+	"github.com/funnywwh/gogs/pkg/process"
+	"github.com/funnywwh/gogs/pkg/setting"
+	"github.com/funnywwh/gogs/pkg/sync"
 )
 
 var repoWorkingPool = sync.NewExclusivePool()

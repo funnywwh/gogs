@@ -5,8 +5,8 @@ import (
 
 	. "github.com/smartystreets/goconvey/convey"
 
-	. "github.com/gogits/gogs/models"
-	"github.com/gogits/gogs/pkg/markup"
+	. "github.com/funnywwh/gogs/models"
+	"github.com/funnywwh/gogs/pkg/markup"
 )
 
 func TestRepo(t *testing.T) {

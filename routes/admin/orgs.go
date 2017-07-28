@@ -5,10 +5,10 @@
 package admin
 
 import (
-	"github.com/gogits/gogs/models"
-	"github.com/gogits/gogs/pkg/context"
-	"github.com/gogits/gogs/pkg/setting"
-	"github.com/gogits/gogs/routes"
+	"github.com/funnywwh/gogs/models"
+	"github.com/funnywwh/gogs/pkg/context"
+	"github.com/funnywwh/gogs/pkg/setting"
+	"github.com/funnywwh/gogs/routes"
 )
 
 const (

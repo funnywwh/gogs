@@ -7,12 +7,12 @@ package user
 import (
 	api "github.com/gogits/go-gogs-client"
 
-	"github.com/gogits/gogs/models"
-	"github.com/gogits/gogs/models/errors"
-	"github.com/gogits/gogs/pkg/context"
-	"github.com/gogits/gogs/pkg/setting"
-	"github.com/gogits/gogs/routes/api/v1/convert"
-	"github.com/gogits/gogs/routes/api/v1/repo"
+	"github.com/funnywwh/gogs/models"
+	"github.com/funnywwh/gogs/models/errors"
+	"github.com/funnywwh/gogs/pkg/context"
+	"github.com/funnywwh/gogs/pkg/setting"
+	"github.com/funnywwh/gogs/routes/api/v1/convert"
+	"github.com/funnywwh/gogs/routes/api/v1/repo"
 )
 
 func GetUserByParamsName(c *context.APIContext, name string) *models.User {
